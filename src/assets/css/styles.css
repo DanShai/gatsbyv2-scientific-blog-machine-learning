@@ -60,7 +60,7 @@ h1 {
 .banner-content {
   position: absolute;
   z-index: 1;
-  top: 1rem;
+  top: 5rem;
   right: 1rem;
   width: 15%;
   height: 50%;
