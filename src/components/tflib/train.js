@@ -1,7 +1,7 @@
 import React from 'react'
 import * as tf from '@tensorflow/tfjs'
 import { Bar, Line, Pie } from 'react-chartjs-2'
-import '../assets/css/ml.css'
+import '../../assets/css/ml.css'
 import PropTypes from 'prop-types'
 
 class Train extends React.Component {
