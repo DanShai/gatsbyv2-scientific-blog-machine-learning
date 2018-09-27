@@ -5,9 +5,10 @@ module.exports = {
     title: 'Dan - Shai',
     author: 'Dan Shai',
     description: ' Dan Blog ',
-    siteUrl: 'https://github.com/Danshai/tempo',
+    siteUrl:
+      'https://github.com/Danshai/gatsbyv2-scientific-blog-machine-learning',
   },
-  pathPrefix: '/tempo',
+  pathPrefix: '/gatsbyv2-scientific-blog-machine-learning',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
