@@ -26,24 +26,24 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3ab62e62b3a9aa1163f1.js"
+    "url": "webpack-runtime-b861adfe1642cc76bb73.js"
   },
   {
-    "url": "app-327cc589a72f83a39125.js"
+    "url": "app-deb45fc52d6d85c7c23e.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-fd173b20b2fe4bb1e5c4.js"
   },
   {
     "url": "index.html",
-    "revision": "1d2a40334eb8ce2fe82603e03a96ff44"
+    "revision": "79f1ece204ef517ddb2816b1303140d2"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "45c0fea136fe605d77f25713a061fd9b"
+    "revision": "59ae18e4124e499bdbafb26f119688fe"
   },
   {
-    "url": "component---src-pages-index-js.68369a713ce070a682fc.css"
+    "url": "component---src-pages-index-js.4bd35ebc496de736f11c.css"
   },
   {
     "url": "component---src-pages-index-js-3b64a2365a507b0bf717.js"
@@ -52,14 +52,14 @@ self.__precacheManifest = [
     "url": "1-7f6e28b92cca3e687798.js"
   },
   {
-    "url": "0-3925e3592a9d26f2879b.js"
+    "url": "0-c67261c8809fe04fd44f.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "component---src-pages-404-js.68369a713ce070a682fc.css"
+    "url": "component---src-pages-404-js.4bd35ebc496de736f11c.css"
   },
   {
     "url": "component---src-pages-404-js-e0b074c9cb1aaa54da0d.js"
@@ -80,7 +80,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tempo/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/gatsbyv2-scientific-blog-machine-learning/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
