@@ -32,7 +32,7 @@ h1 {
 .banner::after {
   content: '';
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   background-image: url('../../assets/images/banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ h1 {
   z-index: 1;
   top: 5rem;
   right: 1rem;
-  width: 15%;
+  width: 20%;
   height: 50%;
   text-align: center;
   transition: all 1000ms;
@@ -73,8 +73,8 @@ h1 {
   display: inline;
 }
 .banner-content .logo {
-  height: 100%;
-  width: 70%;
+  height: 60px;
+  width: 80px;
 }
 
 .title {
@@ -248,16 +248,12 @@ a,
 /* Small Screens */
 @media (max-width: 560px) {
   .banner::after {
-    height: 20vh;
-  }
-
-  .banner-content .logo {
-    width: 100%;
+    height: 25vh;
   }
 
   .banner-content {
-    margin-top: 1rem;
-    right: 45%;
+    right: 40%;
+    top: 2rem;
   }
 
   .banner-content .title,
@@ -290,11 +286,7 @@ a,
   }
 
   .banner-content {
-    margin-top: 1rem;
-    right: 45%;
-  }
-
-  .banner-content .logo {
-    width: 100%;
+    right: 40%;
+    top: 1rem;
   }
 }
