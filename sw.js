@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.6.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.6.1"});
+importScripts("workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,43 +26,43 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ca6cc32d4a6ee1c0cc38.js"
+    "url": "webpack-runtime-7e2b5ec259b47bd91f6f.js"
   },
   {
-    "url": "app-deb45fc52d6d85c7c23e.js"
+    "url": "app-c740ca24b6201022bbf8.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-fd173b20b2fe4bb1e5c4.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ebfb121fb5631328c257.js"
   },
   {
     "url": "index.html",
-    "revision": "a8c0df441b773a0f1d1e58b0382513a8"
+    "revision": "c9eb269744910cd5f3d3e40e36fb2b45"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "bde53441c5ecac416aaea5db85abd5f3"
+    "revision": "0fe5d1309f818910b3ad872e515d5c1d"
   },
   {
-    "url": "component---src-pages-index-js.e0f85c73f4a4fdb22e96.css"
+    "url": "component---src-pages-index-js.e720a55d4abad97e5f79.css"
   },
   {
-    "url": "component---src-pages-index-js-3b64a2365a507b0bf717.js"
+    "url": "component---src-pages-index-js-b4e46e6d69a952fe770f.js"
   },
   {
-    "url": "1-7f6e28b92cca3e687798.js"
+    "url": "1-69f2c2af02b7b74cc353.js"
   },
   {
-    "url": "0-c67261c8809fe04fd44f.js"
+    "url": "0-31b5f2217ce6b3b289d3.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "component---src-pages-404-js.e0f85c73f4a4fdb22e96.css"
+    "url": "component---src-pages-404-js.0304d81c7220b7bb99db.css"
   },
   {
-    "url": "component---src-pages-404-js-e0b074c9cb1aaa54da0d.js"
+    "url": "component---src-pages-404-js-3cc599b6409644e77442.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gatsbyv2-scientific-blog-machine-learning/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/ds/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
