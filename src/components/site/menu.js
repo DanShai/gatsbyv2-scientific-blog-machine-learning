@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import '../assets/css/menu.css'
+import '../../assets/css/menu.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faHome, faPen } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -111,7 +111,7 @@ export default class Menu extends React.Component {
         <Link
           onClick={() => this.hidemenu()}
           className="alink menu-item blue"
-          to="/mnistpred"
+          to="/proj"
         >
           <i className="icon">
             <FontAwesomeIcon icon={faCoffee} />

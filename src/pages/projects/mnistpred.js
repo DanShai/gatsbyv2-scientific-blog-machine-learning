@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Model from '../components/tflib/model'
-import Train from '../components/tflib/train'
-import Layer from '../components/layer'
+import Model from '../../components/ml/model'
+import Train from '../../components/ml/train'
+import Layer from '../../components/ml/layer'
 import * as tf from '@tensorflow/tfjs'
 import mnist from 'mnist'
-import Canvas from '../components/canvas'
-import Layout from '../components/layout'
+import Canvas from '../../components/ml/canvas'
+import Layout from '../../components/site/layout'
 import Helmet from 'react-helmet'
 
-import '../assets/css/ml.css'
+import '../../assets/css/ml.css'
 
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
@@ -136,7 +136,7 @@ export default class Mnist extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <Layout bs={false}>
         <Helmet>
           <title>Mnist - Prediction </title>
           <meta name="description" content="Generic Page" />

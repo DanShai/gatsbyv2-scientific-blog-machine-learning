@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/css/styles.css'
-import omega from '../assets/images/omega.png'
+import '../../assets/css/banner.css'
+import omega from '../../assets/images/omega.png'
 import Menu from './menu'
 
 const Banner = props => (

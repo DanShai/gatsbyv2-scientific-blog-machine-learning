@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import Interet from '../components/interests'
-import About from '../components/about'
+import Layout from '../components/site/layout'
+import Interet from '../components/site/interests'
+import About from '../components/site/about'
 import favicon from '../assets/images/omega.png'
 
 class HomeIndex extends React.Component {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Line, Pie, Bar, Doughnut, Polar, Radar } from 'react-chartjs-2'
 
-import '../assets/css/styles.css'
-import '../assets/css/ml.css'
+import '../../assets/css/styles.css'
+import '../../assets/css/ml.css'
 
 export default class Mchart extends Component {
   constructor(props) {

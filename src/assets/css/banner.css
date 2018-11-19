@@ -1,0 +1,86 @@
+.banner {
+  position: relative;
+}
+
+.banner::after {
+  content: '';
+  width: 100%;
+  height: 25vh;
+  background-image: url('../../assets/images/ml41.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 1000ms;
+}
+
+.banner:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.banner:hover .banner-content {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+/* ---  position absolute will to the body if parent has not position set!
+          z-index needs position set
+          width needs display set
+  ----*/
+.banner-content {
+  position: absolute;
+  z-index: 1;
+  top: 5rem;
+  right: 1rem;
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  transition: all 1000ms;
+  display: inline-flex;
+}
+
+.banner-content .logo {
+  height: 60px;
+  width: 80px;
+}
+.banner-content .text {
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+/* Small Screens */
+@media (max-width: 560px) {
+  .banner::after {
+    height: 50vh;
+  }
+
+  .banner-content {
+    top: 50%;
+    margin-top: 1rem;
+  }
+
+  .banner-content .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .banner-content .title,
+  .banner-content .text {
+    display: none;
+  }
+}
+
+/* Landscape */
+@media (max-height: 500px) {
+  .banner-content .title,
+  .banner-content .text {
+    display: none;
+  }
+
+  .banner-content {
+    top: 1rem;
+  }
+}

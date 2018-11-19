@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
-import Layout from '../components/layout'
+import Layout from '../components/site/layout'
 import 'katex/dist/katex.min.css'
 // import '../assets/css/mkatex.css'
 
@@ -15,7 +15,7 @@ class Blog extends React.Component {
     )
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     return (
-      <Layout>
+      <Layout bs={false}>
         <Helmet>
           <title>Blog - Dan </title>
           <meta name="description" content="Generic Page" />
@@ -37,7 +37,7 @@ class Blog extends React.Component {
                       </span>
                     </Link>
                   </h3>
-                  <p
+                  <div
                     className="summary"
                     dangerouslySetInnerHTML={{ __html: node.excerpt }}
                   />

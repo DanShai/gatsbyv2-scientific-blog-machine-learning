@@ -10,8 +10,11 @@
     "@fortawesome/react-fontawesome": "^0.1.3",
     "@tensorflow/tfjs": "^0.13.0",
     "autoprefixer": "^9.1.5",
+    "axios": "^0.18.0",
     "chart.js": "^2.7.2",
+    "classnames": "^2.2.6",
     "gatsby": "next",
+    "gatsby-cli": "^2.4.2",
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
@@ -60,6 +63,6 @@
   },
   "repository": {
     "type": "git",
-    "url": " https://github.com/DanShai/gatsbyv2-scientific-blog-machine-learning"
+    "url": "https://github.com/DanShai/ds"
   }
 }

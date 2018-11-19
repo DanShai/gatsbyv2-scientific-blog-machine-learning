@@ -1,6 +1,6 @@
 ---
 title: gone with wind
-date: '2015-05-01T22:12:03.284Z'
+date: '2018-08-29'
 author: 'dan'
 ---
 

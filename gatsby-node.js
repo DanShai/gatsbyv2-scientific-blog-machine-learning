@@ -42,9 +42,8 @@ exports.createPages = ({ graphql, actions }) => {
         const posts = result.data.allMarkdownRemark.edges
         const total = result.data.allMarkdownRemark.totalCount
         _.each(posts, (post, index) => {
-          const previous =
-            index === posts.length - 1 ? null : posts[index + 1].node
-          const next = index === 0 ? null : posts[index - 1].node
+          const next = index === posts.length - 1 ? null : posts[index + 1].node
+          const previous = index === 0 ? null : posts[index - 1].node
 
           createPage({
             path: post.node.fields.slug,

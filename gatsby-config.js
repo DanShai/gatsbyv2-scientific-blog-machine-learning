@@ -5,10 +5,9 @@ module.exports = {
     title: 'Dan - Shai',
     author: 'Dan Shai',
     description: ' Dan Blog ',
-    siteUrl:
-      'https://github.com/Danshai/gatsbyv2-scientific-blog-machine-learning',
+    siteUrl: 'https://danshai.github.io/ds',
   },
-  pathPrefix: '/gatsbyv2-scientific-blog-machine-learning',
+  pathPrefix: '/ds',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -28,6 +27,19 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: `data`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-csv`,
+      options: {
+        noheader: false,
       },
     },
     {
@@ -65,12 +77,6 @@ module.exports = {
           }),
         ],
         precision: 8,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-csv`,
-      options: {
-        noheader: true,
       },
     },
     `gatsby-transformer-sharp`,
